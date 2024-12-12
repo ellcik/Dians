@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2d4a78;
+    color: white;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2d4a78;
+    padding-top: 50px; /* Простор за логото */
+}
+
+.logoContainer {
+    position: absolute; /* Логото останува фиксно */
+    top: 20px; /* Простор од горниот раб */
+    left: 20px; /* Простор од левиот раб */
+}
+
+.logo {
+    height: 60px; /* Големина на логото */
+    width: auto;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    background: #2d4a78; /* Иста боја како позадината */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Задржано е мало сенчење */
+    color: white; /* Бел текст за подобра читливост */
+}
+
+.loginForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    color: #6b7280;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.loginForm input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.loginButton {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.loginButton:hover {
+    background-color: #357ab8;
+}
+
+.links {
+    display: flex;
+    justify-content: center; /* Центрирај ги линковите */
+    gap: 20px; /* Простор меѓу линковите */
+    font-size: 14px;
+}
+
+.links a {
+    color: #add8e6;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
